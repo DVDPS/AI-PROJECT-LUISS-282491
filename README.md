@@ -1,5 +1,18 @@
 # AI-PROJECT
 
+## Instructions
+Perform an Explanatory data analysis (EDA) with visualization using the entire dataset.. 
+• Preprocess the dataset (impute missing values, encode categorical features with one-hot 
+encoding). Your goal is to estimate whether an SMS is fraudulent 
+• Define whether this is a regression, classification or clustering problem, explain why and 
+choose your model design accordingly. Test at least 3 different models. First, create a 
+validation set from the training set to analyze the behaviour with the default 
+hyperparameters. Then use cross-validation to find the best set of hyperparameters. You 
+must describe every hyperparameter tuned (the more, the better) 
+• Select the best architecture using the right metric 
+• Compute the performances of the test set 
+• Explain your results 
+
 ## Title and Team members
 
 ### [Section 1] Introduction – Briefly describe your project
