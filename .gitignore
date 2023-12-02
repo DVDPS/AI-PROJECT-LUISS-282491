@@ -1,5 +1,8 @@
 # Custom
 Pipfile.lock
+first-fine-tune
+Zephyr-Fraudulence-Detector-7B-full
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
