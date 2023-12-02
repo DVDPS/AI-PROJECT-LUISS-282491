@@ -1,0 +1,2792 @@
+[
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Wishing you and your family Merry \"X\" mas and HAPPY NEW Year in advance..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Are you in castor? You need to see something",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hmmm.but you should give it on one day..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Call me. I m unable to cal. Lets meet bhaskar, and deep",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No * am working on the ringing u thing but have whole houseful of screaming brats so * am pulling my hair out! Loving u",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Then she buying today? \u00dc no need to c meh...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Lmao but its so fun...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I doubt you could handle 5 times per night in any case...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "How do friends help us in problems? They give the most stupid suggestion that Lands us into another problem and helps us forgt the previous problem",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I will lick up every drop :) are you ready to use your mouth as well?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Not course. Only maths one day one chapter with in one month we can finish.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Cool. Do you like swimming? I have a pool and jacuzzi at my house.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "URGENT! You have won a 1 week FREE membership in our \u00a3100,000 Prize Jackpot! Txt the word: CLAIM to No: 81010 T&C www.dbuk.net LCCLTD POBOX 4403LDNW1A7RW18",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "We tried to contact you re our offer of New Video Phone 750 anytime any network mins HALF PRICE Rental camcorder call 08000930705 or reply for delivery Wed",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yes..he is really great..bhaji told kallis best cricketer after sachin in world:).very tough to get out.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm done...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hi missed your Call and my mumHas beendropping red wine all over theplace! what is your adress?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Free msg: Single? Find a partner in your area! 1000s of real people are waiting to chat now!Send CHAT to 62220Cncl send STOPCS 08717890890\u00a31.50 per msg",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sir, I have been late in paying rent for the past few months and had to pay a $ &lt;#&gt;  charge. I felt it would be inconsiderate of me to nag about something you give at great cost to yourself and that's why i didnt speak up. I however am in a recession and wont be able to pay the charge this month hence my askin well ahead of month's end. Can you please help. Thanks",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I will reach before ten morning",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Waiting for your call.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Not thought bout it... || Drink in tap & spile at seven. || Is that pub on gas st off broad st by canal. || Ok?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Joy's father is John. Then John is the ____ of Joy's father. If u ans ths you hav  &lt;#&gt;  IQ. Tis s IAS question try to answer.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Jesus christ bitch I'm trying to give you drugs answer your fucking phone",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Lol well don't do it without me. We could have a big sale together.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Of cos can lar i'm not so ba dao ok... 1 pm lor... Y u never ask where we go ah... I said u would ask on fri but he said u will ask today...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "RCT' THNQ Adrian for U text. Rgds Vatian",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "You have 1 new message. Call 0207-083-6089",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Also track down any lighters you can find",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Where r we meeting?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "It\u2018s \u00a36 to get in, is that ok?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "How was txting and driving",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "But i juz remembered i gotta bathe my dog today..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I only work from mon to thurs but Sat i cant leh... Booked liao... Which other day u free?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "WELL DONE! Your 4* Costa Del Sol Holiday or \u00a35000 await collection. Call 09050090044 Now toClaim. SAE, TCs, POBox334, Stockport, SK38xh, Cost\u00a31.50/pm, Max10mins",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "What's ur pin?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "India have to take lead:)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "The word \"Checkmate\" in chess comes from the Persian phrase \"Shah Maat\" which means; \"the king is dead..\" Goodmorning.. Have a good day..:)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sir send to group mail check it.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yes. Nigh you cant aha.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yun ah.now \u00fc wkg where?btw if \u00fc go nus sc. \u00dc wana specialise in wad?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm there and I can see you, but you can't see me ? Maybe you should reboot ym ? I seen the buzz",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Fun fact: although you would think armand would eventually build up a tolerance or some shit considering how much he smokes, he gets fucked up in like 2 hits",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ok u can take me shopping when u get paid =D",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "This weeks SavaMob member offers are now accessible. Just call 08709501522 for details! SavaMob, POBOX 139, LA3 2WU. Only \u00a31.50/week. SavaMob - offers mobile!",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I had it already..sabarish asked me to go..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Pls dont restrict her from eating anythin she likes for the next two days.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I hav almost reached. Call, i m unable to connect u.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "My friends use to call the same.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I have 2 sleeping bags, 1 blanket and paper and  phone details. Anything else?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Gud mrng dear hav a nice day",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "HOT LIVE FANTASIES call now 08707509020 Just 20p per min NTT Ltd, PO Box 1327 Croydon CR9 5WB 0870..k",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Me i'm not workin. Once i get job...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "tells u 2 call 09066358152 to claim \u00a35000 prize. U have 2 enter all ur mobile & personal details @ the prompts. Careful!",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hmmm... Guess we can go 4 kb n power yoga... Haha, dunno we can tahan power yoga anot... Thk got lo oso, forgot liao...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "So how many days since then?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "WOT U WANNA DO THEN MISSY?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Haha... can... But i'm having dinner with my cousin...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Eh u remember how 2 spell his name... Yes i did. He v naughty make until i v wet.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dhoni have luck to win some big title.so we will win:)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Doesn't g have class early tomorrow and thus shouldn't be trying to smoke at  &lt;#&gt;",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Raji..pls do me a favour. Pls convey my Birthday wishes to Nimya. Pls. Today is her birthday.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Please call our customer service representative on FREEPHONE 0808 145 4742 between 9am-11pm as you have WON a guaranteed \u00a31000 cash or \u00a35000 prize!",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I went to project centre",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Congrats ! Treat pending.i am not on mail for 2 days.will mail once thru.Respect mother at home.check mails.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "URGENT!! Your 4* Costa Del Sol Holiday or \u00a35000 await collection. Call 09050090044 Now toClaim. SAE, TC s, POBox334, Stockport, SK38xh, Cost\u00a31.50/pm, Max10mins",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Jus finish watching tv... U?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dunno dat's wat he told me. Ok lor...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sounds great! Are you home now?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Need a coffee run tomo?Can't believe it's that time of week already",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Teach me apps da. When you come to college.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "When \u00fc login dat time... Dad fetching \u00fc home now?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Aight will do, thanks again for comin out",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm not sure, I was just checking out what was happening around the area",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry I missed you babe. I was up late and slept in. I hope you enjoy your driving lesson, boytoy. I miss you too ... *teasing kiss*",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yeah, we can probably swing by once my roommate finishes up with his girl",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "A Boy loved a gal. He propsd bt she didnt mind. He gv lv lttrs, Bt her frnds threw thm. Again d boy decided 2 aproach d gal , dt time a truck was speeding towards d gal. Wn it was about 2 hit d girl,d boy ran like hell n saved her. She asked 'hw cn u run so fast?' D boy replied \"Boost is d secret of my energy\" n instantly d girl shouted \"our energy\" n Thy lived happily 2gthr drinking boost evrydy Moral of d story:- I hv free msgs:D;): gud ni8",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ard 530 lor. I ok then message \u00fc lor.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Wow ... I love you sooo much, you know ? I can barely stand it ! I wonder how your day goes and if you are well, my love ... I think of you and miss you",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Princess, i like to make love  &lt;#&gt;  times per night. Hope thats not a problem!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "FreeMsg Why haven't you replied to my text? I'm Randy, sexy, female and live local. Luv to hear from u. Netcollex Ltd 08700621170150p per msg reply Stop to end",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Thank you. I like you as well...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I am in office:)whats the matter..msg me now.i will call you at break:).",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "\u00dc come lt 25 n pass to me lar",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Reply to win \u00a3100 weekly! Where will the 2006 FIFA World Cup be held? Send STOP to 87239 to end service",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Also remember the beads don't come off. Ever.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ok but tell me half an hr b4 u come i need 2 prepare.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Exactly. Anyways how far. Is jide her to study or just visiting",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "S but mostly not like that.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Umma my life and vava umma love you lot dear",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yeah there's barely enough room for the two of us, x has too many fucking shoes. Sorry man, see you later",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Text me when you get off, don't call, my phones having problems",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Alright. I'm out--have a good night!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "would u fuckin believe it they didnt know i had thurs pre booked off so they re cancelled me AGAIN! that needs to b sacked",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hello- thanx for taking that call. I got a job! Starts on monday!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I wanted to wish you a Happy New Year and I wanted to talk to you about some legal advice to do with when Gary and I split but in person. I'll make a trip to Ptbo for that. I hope everything is good with you babe and I love ya :)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Cramps stopped. Going back to sleep",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "What time do u get out?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Im on gloucesterroad what are uup to later?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Please protect yourself from e-threats. SIB never asks for sensitive information like Passwords,ATM/SMS PIN thru email. Never share your password with anybody.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Free video camera phones with Half Price line rental for 12 mths and 500 cross ntwk mins 100 txts. Call MobileUpd8 08001950382 or Call2OptOut/674",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yo, any way we could pick something up tonight?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Oh god. I'm gonna Google nearby cliffs now.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Your bill at 3 is \u00a333.65 so thats not bad!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Tick, tick, tick ... Babe",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "As per your request 'Melle Melle (Oru Minnaminunginte Nurungu Vettam)' has been set as your callertune for all Callers. Press *9 to copy your friends Callertune",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Too late. I said i have the website. I didn't i have or dont have the slippers",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I will vote for wherever my heart guides me",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "We'll join the  &lt;#&gt;  bus",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dare i ask... Any luck with sorting out the car?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "-PLS STOP bootydelious (32/F) is inviting you to be her friend. Reply YES-434 or NO-434 See her: www.SMS.ac/u/bootydelious STOP? Send STOP FRND to 62468",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'll be late...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hey u still at the gym?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Good afternoon, my love! How goes that day ? I hope maybe you got some leads on a job. I think of you, boytoy and send you a passionate kiss from across the sea",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "My sister in law, hope you are having a great month. Just saying hey. Abiola",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Did u fix the teeth?if not do it asap.ok take care.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "There are no other charges after transfer charges and you can withdraw anyhow you like",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "You know there is. I shall speak to you in  &lt;#&gt;  minutes then",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Idea will soon get converted to live:)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Otherwise had part time job na-tuition..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I got lousy sleep. I kept waking up every 2 hours to see if my cat wanted to come in. I worry about him when its cold :(",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Good afternon, my love. How are today? I hope your good and maybe have some interviews. I wake and miss you babe. A passionate kiss from across the sea",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Friendship is not a game to play, It is not a word to say, It doesn\\'t start on March and ends on May, It is tomorrow, yesterday, today and e",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yes. They replied my mail. I'm going to the management office later. Plus will in to bank later also.or on wednesday.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Can come my room but cannot come my house cos my house still messy... Haha...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I've got  &lt;#&gt; , any way I could pick up?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "K, makes sense, btw carlos is being difficult so you guys are gonna smoke while I go pick up the second batch and get gas",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dont pick up d call when something important is There to tell. Hrishi",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "S.s:)i thinl role is like sachin.just standing. Others have to hit.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "\u00dc still got lessons?  \u00dc in sch?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm back, lemme know when you're ready",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Good morning princess! How are you?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hey. What happened? U switch off ur cell d whole day. This isnt good. Now if u do care, give me a call tomorrow.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "We don call like  &lt;#&gt;  times oh. No give us hypertension oh.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "\u00dc takin linear algebra today?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Just re read it and I have no shame but tell me how he takes it and if he runs I will blame u 4 ever!! Not really 4 ever just a long time",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I am late,so call you tomorrow morning.take care sweet dreams....u and me...ummifying...bye.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Quite lor. But dun tell him wait he get complacent...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No, but you told me you were going, before you got drunk!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Headin towards busetop",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "K:)k:)what are detail you want to transfer?acc no enough?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Had your mobile 11 months or more? U R entitled to Update to the latest colour mobiles with camera for Free! Call The Mobile Update Co FREE on 08002986030",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "TBS/PERSOLVO. been chasing us since Sept for\u00a338 definitely not paying now thanks to your information. We will ignore them. Kath. Manchester.",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Don't worry though, I understand how important it is that I be put in my place with a poorly thought out punishment in the face of the worst thing that has ever happened to me. Brb gonna go kill myself",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I take it the post has come then! You must have 1000s of texts now! Happy reading. My one from wiv hello caroline at the end is my favourite. Bless him",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I want to tell you how bad I feel that basically the only times I text you lately are when I need drugs",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sounds gd... Haha... Can... Wah, u yan jiu so fast liao...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "5p 4 alfie Moon's Children in need song on ur mob. Tell ur m8s. Txt Tone charity to 8007 for Nokias or Poly charity for polys: zed 08701417012 profit 2 charity.",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Jordan got voted out last nite!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I ain't answerin no phone at what is actually a pretty reasonable hour but I'm sleepy",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Oh is it! Which brand?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No problem. We will be spending a lot of quality time together...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Greetings me, ! Consider yourself excused.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry da thangam.it's my mistake.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "SMS. ac Sptv: The New Jersey Devils and the Detroit Red Wings play Ice Hockey. Correct or Incorrect? End? Reply END SPTV",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Haha get used to driving to usf man, I know a lot of stoners",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Happy valentines day I know its early but i have hundreds of handsomes and beauties to wish. So i thought to finish off aunties and uncles 1st...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "He remains a bro amongst bros",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Japanese Proverb: If one Can do it, U too Can do it, If none Can do it,U must do it Indian version: If one Can do it, LET HIM DO it.. If none Can do it,LEAVE it!! And finally Kerala version: If one can do it, Stop him doing it.. If none can do it, Make a strike against it ...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "LOL .. *grins* .. I'm not babe, but thanks for thinking of me!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm back &amp; we're packing the car now, I'll let you know if there's room",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hey i booked the kb on sat already... what other lessons are we going for ah? Keep your sat night free we need to meet and confirm our lodging",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "&lt;#&gt; , that's all? Guess that's easy enough",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "* Am on my way",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ok. Can be later showing around 8-8:30 if you want + cld have drink before. Wld prefer not to spend money on nosh if you don't mind, as doing that nxt wk.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Oh gei. That happend to me in tron. Maybe ill dl it in 3d when its out",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "MY NO. IN LUTON 0125698789 RING ME IF UR AROUND! H*",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Full heat pa:-) i have applyed oil pa.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Do you want a new Video phone? 600 anytime any network mins 400 Inclusive Video calls AND downloads 5 per week Free delTOMORROW call 08002888812 or reply NOW",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I wanted to ask \u00fc to wait 4 me to finish lect. Cos my lect finishes in an hour anyway.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "U haven\u0092t lost me ill always b here 4u.i didn\u0092t intend 2 hurt u but I never knew how u felt about me when Iwas+marine&that\u0092s what itried2tell urmom.i careabout u",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "What you doing?how are you?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Black shirt n blue jeans... I thk i c \u00fc...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No message..no responce..what happend?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yeah work is fine, started last week, all the same stuff as before, dull but easy and guys are fun!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "URGENT! Your Mobile number has been awarded a <UKP>2000 prize GUARANTEED. Call 09061790125 from landline. Claim 3030. Valid 12hrs only 150ppm",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "K, I might come by tonight then if my class lets out early",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm going for bath will msg you next  &lt;#&gt;  min..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Missed call alert. These numbers called but left no message. 07008009200",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Onum ela pa. Normal than.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "That's very rude, you on campus?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Is toshiba portege m100 gd?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Well if I'm that desperate I'll just call armand again",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ya very nice. . .be ready on thursday",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "K fyi x has a ride early tomorrow morning but he's crashing at our place tonight",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Chinatown got porridge, claypot rice, yam cake, fishhead beehoon... Either we eat cheap den go cafe n tok or go nydc or somethin...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I sent my scores to sophas and i had to do secondary application for a few schools. I think if you are thinking of applying, do a research on cost also. Contact joke ogunrinde, her school is one me the less expensive ones",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Going for dinner.msg you after.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "18 days to Euro2004 kickoff! U will be kept informed of all the latest news and results daily. Unsubscribe send GET EURO STOP to 83222.",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Aight ill get on fb in a couple minutes",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Last chance 2 claim ur \u00a3150 worth of discount vouchers-Text YES to 85023 now!SavaMob-member offers mobile T Cs 08717898035. \u00a33.00 Sub. 16 . Remove txt X or STOP",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Why nothing. Ok anyway give me treat",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "LOL ... Have you made plans for new years?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Even my brother is not like to speak with me. They treat me like aids patent.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "As per your request 'Melle Melle (Oru Minnaminunginte Nurungu Vettam)' has been set as your callertune for all Callers. Press *9 to copy your friends Callertune",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm e person who's doing e sms survey...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I've reached already.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "What's nannys address?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No wonder... Cos i dun rem seeing a silver car... But i thk i saw a black one...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Em, its olowoyey@ usc.edu have a great time in argentina. Not sad about secretary, everything is a blessing",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "We are hoping to get away by 7, from Langport. You still up for town tonight?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "IM GONNA MISS U SO MUCH",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Tunde, how are you doing. This is just wishing you a great day. Abiola.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Waqt se pehle or naseeb se zyada kisi ko kuch nahi milta,Zindgi wo nahi he jo hum sochte hai Zindgi wo hai jo ham jeetey hai..........",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "8007 25p 4 Alfie Moon's Children in Need song on ur mob. Tell ur m8s. Txt TONE CHARITY to 8007 for nokias or POLY CHARITY for polys :zed 08701417012 profit 2 charity",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Remember all those whom i hurt during days of satanic imposter in me.need to pay a price,so be it.may destiny keep me going and as u said pray that i get the mind to get over the same.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "HI DARLIN I FINISH AT 3 DO U 1 2 PICK ME UP OR MEET ME? TEXT BACK ON THIS NUMBER LUV KATE XXX",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I havent add \u00fc yet right..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "It's fine, imma get a drink or somethin. Want me to come find you?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "at bruce b downs &amp; fletcher now",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Goodmorning sleeping ga.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Oh yeah! And my diet just flew out the window",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Alright if you're sure, let me know when you're leaving",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "U can WIN \u00a3100 of Music Gift Vouchers every week starting NOW Txt the word DRAW to 87066 TsCs www.Idew.com SkillGame, 1Winaweek, age16. 150ppermessSubscription",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry, I'll call later",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Aight, sounds good. When do you want me to come down?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Well, I meant as opposed to my drunken night of before",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yes but I don't care cause I know its there!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Raji..pls do me a favour. Pls convey my Birthday wishes to Nimya. Pls. Today is her birthday.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hi dude hw r u da realy mising u today",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Come aftr  &lt;DECIMAL&gt; ..now i m cleaning the house",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I dunno they close oredi not... \u00dc v ma fan...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Thank You for calling.Forgot to say Happy Onam to you Sirji.I am fine here and remembered you when i met an insurance person.Meet You in Qatar Insha Allah.Rakhesh, ex Tata AIG who joined TISSCO,Tayseer.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "But i have to. I like to have love and arrange.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "En chikku nange bakra msg kalstiya..then had tea/coffee?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yes..he is really great..bhaji told kallis best cricketer after sachin in world:).very tough to get out.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Wish u many many returns of the day.. Happy birthday vikky..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "G wants to know where the fuck you are",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Tee hee. Off to lecture, cheery bye bye.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No message..no responce..what happend?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Maybe?! Say hi to  and find out if  got his card. Great escape or wetherspoons?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm reaching home in 5 min.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I fetch yun or u fetch?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "FREE GAME. Get Rayman Golf 4 FREE from the O2 Games Arcade. 1st get UR games settings. Reply POST, then save & activ8. Press 0 key for Arcade. Termsapply",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "For taking part in our mobile survey yesterday! You can now have 500 texts 2 use however you wish. 2 get txts just send TXT to 80160 T&C www.txt43.com 1.50p",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "not that I know of, most people up here are still out of town",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Congratulations ur awarded 500 of CD vouchers or 125gift guaranteed & Free entry 2 100 wkly draw txt MUSIC to 87066 TnCs www.Ldew.com1win150ppmx3age16",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I guess you could be as good an excuse as any, lol.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Was the actual exam harder than NBME",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hello. Damn this christmas thing. I think i have decided to keep this mp3 that doesnt work.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Carlos is taking his sweet time as usual so let me know when you and patty are done/want to smoke and I'll tell him to haul ass",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "We have new local dates in your area - Lots of new people registered in YOUR AREA. Reply DATE to start now! 18 only www.flirtparty.us REPLYS150",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "It only does simple arithmetic not percentages.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Wish i were with you now!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I can\u0092t wait for cornwall. Hope tonight isn\u0092t too bad as well but it\u0092s rock night shite. Anyway i\u0092m going for a kip now have a good night. Speak to you soon.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Not sure I have the stomach for it ...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "You will be in the place of that man",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "88066 FROM 88066 LOST 3POUND HELP",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Me, i dont know again oh",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "naughty little thought: 'its better to flirt, flirt n flirt, rather than loving someone n gettin hurt, hurt n hurt...:-) Gud nyt",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Are you still getting the goods.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dizzamn, aight I'll ask my suitemates when I get back",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Beautiful Truth against Gravity.. Read carefully: \"Our heart feels light when someone is in it.. But it feels very heavy when someone leaves it..\" GOOD NIGHT",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I wanna watch that movie",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I don't quite know what to do. I still can't get hold of anyone. I cud pick you up bout 7.30pm and we can see if they're in the pub?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I am back. Good journey! Let me know if you need any of the receipts. Shall i tell you like the pendent?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Okay name ur price as long as its legal! Wen can I pick them up? Y u ave x ams xx",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Oh baby of the house. How come you dont have any new pictures on facebook",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "K. I will sent it again",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Those ducking chinchillas",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "For real when u getting on yo? I only need 2 more tickets and one more jacket and I'm done. I already used all my multis.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Not directly behind... Abt 4 rows behind \u00fc...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "U need my presnts always bcz U cant mis love. \"jeevithathile irulinae neekunna prakasamanu sneham\" prakasam ennal prabha 'That mns prabha is'LOVE' Got it. Dont mis me....",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dear Voucher Holder, To claim this weeks offer, at you PC please go to http://www.e-tlp.co.uk/expressoffer Ts&Cs apply. To stop texts, txt STOP to 80062",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Just forced myself to eat a slice. I'm really not hungry tho. This sucks. Mark is getting worried. He knows I'm sick when I turn down pizza. Lol",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Until 545 lor... Ya, can go 4 dinner together...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "And very importantly, all we discuss is between u and i only.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "That way transport is less problematic than on sat night. By the way, if u want to ask  n  to join my bday, feel free. But need to know definite nos as booking on fri.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "K I'll take care of it",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "So when do you wanna gym?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Is xy going 4 e lunch?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sday only joined.so training we started today:)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Thanks for your ringtone order, ref number R836. Your mobile will be charged \u00a34.50. Should your tone not arrive please call customer services on 09065069154",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Wen ur lovable bcums angry wid u, dnt take it seriously.. Coz being angry is d most childish n true way of showing deep affection, care n luv!.. kettoda manda... Have nice day da.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "First answer my question.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hi there, 2nights ur lucky night! Uve been invited 2 XCHAT, the Uks wildest chat! Txt CHAT to 86688 now! 150p/MsgrcvdHG/Suite342/2Lands/Row/W1J6HL LDN 18yrs",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Nice.nice.how is it working?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "\u00dc neva tell me how i noe... I'm not at home in da aft wat...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "They will pick up and drop in car.so no problem..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Just sent again. Do you scream and moan in bed, princess?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Short But Cute : \" Be a good person , but dont try to prove\" ..... Gud mrng...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yup i'm free...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I got it before the new year cos yetunde said she wanted to surprise you with it but when i didnt see money i returned it mid january before the  &lt;#&gt; day return period ended.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Natalja (25/F) is inviting you to be her friend. Reply YES-440 or NO-440 See her: www.SMS.ac/u/nat27081980 STOP? Send STOP FRND to 62468",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Just checked out, heading out to drop off my stuff now",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Haha yeah I see that now, be there in a sec",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "URGENT! Your mobile No 077xxx WON a \u00a32,000 Bonus Caller Prize on 02/06/03! This is the 2nd attempt to reach YOU! Call 09066362206 ASAP! BOX97N7QP, 150ppm",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Beerage?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "He will, you guys close?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Lemme know when you're here",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Umma. Did she say anything",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Got ur mail Dileep.thank you so muchand look forward to lots of support...very less contacts here,remember one venugopal you mentioned.tomorrow if not late,i shall try to come up till there.goodnight dear.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hello, yeah i've just got out of the bath and need to do my hair so i'll come up when i'm done, yeah?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Cos i want it to be your thing",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "As usual..iam fine, happy &amp; doing well..:)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "U have a secret admirer who is looking 2 make contact with U-find out who they R*reveal who thinks UR so special-call on 09058094565",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "ok. I am a gentleman and will treat you with dignity and respect.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Howz pain.it will come down today.do as i said ystrday.ice and medicine.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I don't know, same thing that's wrong everyso often, he panicks starts goin on bout not bein good enough \u2026",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "They don't put that stuff on the roads to keep it from getting slippery over there?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "He needs to stop going to bed and make with the fucking dealing",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "How come she can get it? Should b quite diff to guess rite...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "December only! Had your mobile 11mths+? You are entitled to update to the latest colour camera mobile for Free! Call The Mobile Update Co FREE on 08002986906",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Living is very simple.. Loving is also simple.. Laughing is too simple.. Winning is tooo simple.. But, Being 'SIMPLE' is very difficult...;-) :-)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm at home. Please call",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "K.k:)i'm going to tirunelvali this week to see my uncle ..i already spend the amount by taking dress .so only i want money.i will give it on feb 1",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hey babe, my friend had to cancel, still up for a visit ?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Think i might have to give it a miss. Am teaching til twelve, then have lecture at two. Damn this working thing.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Lol I would but despite these cramps I like being a girl.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I have lost 10 kilos as of today!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Fantasy Football is back on your TV. Go to Sky Gamestar on Sky Active and play \u00a3250k Dream Team. Scoring starts on Saturday, so register now!SKY OPT OUT to 88088",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "WIN: We have a winner! Mr. T. Foley won an iPod! More exciting prizes soon, so keep an eye on ur mobile or visit www.win-82050.co.uk",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "1 I don't have her number and 2 its gonna be a massive pain in the ass and i'd rather not get involved if that's possible",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Indians r poor but India is not a poor country. Says one of the swiss bank directors. He says that \" &lt;#&gt;  lac crore\" of Indian money is deposited in swiss banks which can be used for 'taxless' budget for  &lt;#&gt;  yrs. Can give  &lt;#&gt;  crore jobs to all Indians. From any village to Delhi 4 lane roads. Forever free power suply to more than  &lt;#&gt;  social projects. Every citizen can get monthly  &lt;#&gt; /- for  &lt;#&gt;  yrs. No need of World Bank &amp; IMF loan. Think how our money is blocked by rich politicians. We have full rights against corrupt politicians. Itna forward karo ki pura INDIA padhe.g.m.\"",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "JADE ITS PAUL. Y DIDN\u0092T U TXT ME? DO U REMEMBER ME FROM BARMED? I WANT 2 TALK 2 U! TXT ME",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Pls call me da. What happen.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I like dis sweater fr mango but no more my size already so irritating.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Uhhhhrmm isnt having tb test bad when youre sick",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Si si. I think ill go make those oreo truffles.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Alright we'll bring it to you, see you in like  &lt;#&gt;  mins",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "What happened in interview?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ugh fuck it I'm resubbing to eve",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ugh my leg hurts. Musta overdid it on mon.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Doing nothing, then u not having dinner w us?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Our records indicate u maybe entitled to 5000 pounds in compensation for the Accident you had. To claim 4 free reply with CLAIM to this msg. 2 stop txt STOP",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I am on the way to ur home",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hey are we going for the lo lesson or gym?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Captain is in our room:)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I am back. Bit long cos of accident on a30. Had to divert via wadebridge.I had a brilliant weekend thanks. Speak soon. Lots of love",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ha... Both of us doing e same thing. But i got tv 2 watch. U can thk of where 2 go tonight or u already haf smth in mind...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Oh did you charge camera",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hello which the site to download songs its urgent pls",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Come to me right now, Ahmad",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Today is ACCEPT DAY..U Accept me as? Brother Sister Lover Dear1 Best1 Clos1 Lvblefrnd Jstfrnd Cutefrnd Lifpartnr Belovd Swtheart Bstfrnd No rply means enemy",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hmmm ... I thought we said 2 hours slave, not 3 ... You are late ... How should I punish you ?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I didnt get ur full msg..sometext is missing, send it again",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "from www.Applausestore.com MonthlySubscription@50p/msg max6/month T&CsC web age16 2stop txt stop",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dun b sad.. It's over.. Dun thk abt it already. Concentrate on ur other papers k.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Thanks for picking up the trash.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ok going to sleep. Hope i can meet her.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hmm well, night night",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Bloody hell, cant believe you forgot my surname Mr . Ill give u a clue, its spanish and begins with m...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Do you want bold 2 or bb torch",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "After completed degree. There is no use in joining finance.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "NO GIFTS!! You trying to get me to throw myself off a cliff or something?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Mm yes dear look how i am hugging you both. :-P",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Also andros ice etc etc",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ha ha nan yalrigu heltini..Iyo kothi chikku, u shared many things wit me..so far i didn't told any body and even uttered a word abt u.. If ur trusting me so much how can i tell these to others.. Plz nxt time dont use those words to me..ok, chikku:-);-)B-)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No da..today also i forgot..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "FROM 88066 LOST \u00a312 HELP",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No dear i do have free messages without any recharge. Hi hi hi",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Aft i finish my lunch then i go str down lor. Ard 3 smth lor. U finish ur lunch already?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Do you ever notice that when you're driving, anyone going slower than you is an idiot and everyone driving faster than you is a maniac?",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Can't. I feel nauseous. I'm so pissed. I didn't eat any sweets all week cause today I was planning to pig out. I was dieting all week. And now I'm not hungry :/",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "RT-KIng Pro Video Club>> Need help? info@ringtoneking.co.uk or call 08701237397 You must be 16+ Club credits redeemable at www.ringtoneking.co.uk! Enjoy!",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Howz pain?hope u r fine..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "PRIVATE! Your 2004 Account Statement for 07742676969 shows 786 unredeemed Bonus Points. To claim call 08719180248 Identifier Code: 45239 Expires",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Gimme a few was  &lt;#&gt;  minutes ago",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Beautiful tomorrow never comes.. When it comes, it's already TODAY.. In the hunt of beautiful tomorrow don't waste your wonderful TODAY.. GOODMORNING:)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "U wake up already? Thanx 4 e tau sar piah it's quite nice.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry da:)i was thought of calling you lot of times:)lil busy.i will call you at noon..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Pls tell nelson that the bb's are no longer comin. The money i was expecting aint coming",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "What do u reckon as need 2 arrange transport if u can't do it, thanks",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I can't right this second, gotta hit people up first",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry, I'll call later",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Auntie huai juan never pick up her phone",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Havent shopping now lor i juz arrive only",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Do \u00fc noe if ben is going?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ay wana meet on sat?\u00fc wkg on sat?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Aight, we'll head out in a few",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Your gonna have to pick up a $1 burger for yourself on your way home. I can't even move. Pain is killing me.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hui xin is in da lib.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "What time should I tell my friend to be around?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Excellent! Wish we were together right now!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "That's what I love to hear :V see you sundayish, then",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "So how's scotland. Hope you are not over showing your JJC tendencies. Take care. Live the dream",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Horrible bf... I now v hungry...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I know you are serving. I mean what are you doing now.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "X2  &lt;#&gt; . Are you going to get that",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "ME 2 BABE I FEEL THE SAME LETS JUST 4GET ABOUT IT+BOTH TRY +CHEER UP+NOT FIT SOO MUCHXXLOVE U LOCAXX",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Got what it takes 2 take part in the WRC Rally in Oz? U can with Lucozade Energy! Text RALLY LE to 61200 (25p), see packs or lucozade.co.uk/wrc & itcould be u!",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Okies... I'll go yan jiu too... We can skip ard oso, go cine den go mrt one, blah blah blah...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I REALLY NEED 2 KISS U I MISS U MY BABY FROM UR BABY 4EVA",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Wait  &lt;#&gt;  min..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I\u2018ll leave around four, ok?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ups which is 3days also, and the shipping company that takes 2wks. The other way is usps which takes a week but when it gets to lag you may have to bribe nipost to get your stuff.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ok i vl..do u know i got adsense approved..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "For ur chance to win \u00a3250 cash every wk TXT: PLAY to 83370. T's&C's www.music-trivia.net custcare 08715705022, 1x150p/wk.",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I am waiting for your call sir.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "3 FREE TAROT TEXTS! Find out about your love life now! TRY 3 FOR FREE! Text CHANCE to 85555 16 only! After 3 Free, Msgs \u00a31.50 each",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "He fucking chickened out. He messaged me he would be late and woould buzz me and then I didn't hear a word from him",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hi. I'm always online on yahoo and would like to chat with you someday",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "FREE for 1st week! No1 Nokia tone 4 ur mob every week just txt NOKIA to 8007 Get txting and tell ur mates www.getzed.co.uk POBox 36504 W45WQ norm150p/tone 16+",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I will once i get home",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "They finally came to fix the ceiling.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry, I'll call later",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "My birthday is on feb  &lt;#&gt;  da. .",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Yes i think so. I am in office but my lap is in room i think thats on for the last few days. I didnt shut that down",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I will reach ur home in  &lt;#&gt;  minutes",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "If you want to mapquest it or something look up \"usf dogwood drive\", that's the tiny street where the parking lot is",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "UpgrdCentre Orange customer, you may now claim your FREE CAMERA PHONE upgrade for your loyalty. Call now on 0207 153 9153. Offer ends 26th July. T&C's apply. Opt-out available",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "The table's occupied, I'm waiting by the tree",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Bring home some Wendy =D",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "URGENT! Last weekend's draw shows that you have won \u00a31000 cash or a Spanish holiday! CALL NOW 09050000332 to claim. T&C: RSTM, SW7 3SS. 150ppm",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I was just callin to say hi. Take care bruv!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "important information 4 orange user 0789xxxxxxx. today is your lucky day!2find out why log onto http://www.urawinner.com THERE'S A FANTASTIC SURPRISE AWAITING YOU!",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hello lover! How goes that new job? Are you there now? Are you happy? Do you think of me? I wake, my slave and send you a teasing kiss from across the sea",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry about that this is my mates phone and i didnt write it love Kate",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Shall i start from hear.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "In work now. Going have in few min.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hi 07734396839 IBH Customer Loyalty Offer: The NEW NOKIA6600 Mobile from ONLY \u00a310 at TXTAUCTION!Txt word:START to No:81151 & get Yours Now!4T&",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Lemme know when I can swing by and pick up, I'm free basically any time after 1 all this semester",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "You are a great role model. You are giving so much and i really wish each day for a miracle but God as a reason for everything and i must say i wish i knew why but i dont. I've looked up to you since i was young and i still do. Have a great day.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dear Voucher Holder, To claim this weeks offer, at your PC please go to http://www.wtlp.co.uk/text. Ts&Cs apply.",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Or \u00fc go buy wif him then i meet \u00fc later can?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Its sunny in california. The weather's just cool",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "So when you gonna get rimac access",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "What part of \"don't initiate\" don't you understand",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "LMAO where's your fish memory when I need it?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Can you talk with me..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "SORRY IM STIL FUCKED AFTER LAST NITE WENT TOBED AT 430 GOT UP 4 WORK AT 630",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Aiyar hard 2 type. U later free then tell me then i call n scold n tell u.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "SMS SERVICES For your inclusive text credits pls gotto www.comuk.net login 3qxj9 unsubscribe with STOP no extra charge help 08702840625 comuk.220cm2 9AE",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Desires- u going to doctor 4 liver. And get a bit stylish. Get ur hair managed. Thats it.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I love u 2 my little pocy bell I am sorry but I love u",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm aight. Wat's happening on your side.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Aight, text me tonight and we'll see what's up",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'm putting it on now. It should be ready for  &lt;TIME&gt;",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "IM GONNAMISSU SO MUCH!!I WOULD SAY IL SEND U A POSTCARD BUTTHERES ABOUTAS MUCH CHANCE OF MEREMEMBERIN ASTHERE IS OFSI NOT BREAKIN HIS CONTRACT!! LUV Yaxx",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "So check your errors and if you had difficulties, do correction.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Oh just getting even with u.... u?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Are you at work right now ?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "As usual u can call me ard 10 smth.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Come to mahal bus stop.. &lt;DECIMAL&gt;",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Still chance there. If you search hard you will get it..let have a try :)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Why must we sit around and wait for summer days to celebrate. Such a magical sight when the worlds dressed in white. Oooooh let there be snow.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ok",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "To day class is there are no class.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Just dropped em off, omw back now",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Burger King - Wanna play footy at a top stadium? Get 2 Burger King before 1st Sept and go Large or Super with Coca-Cola and walk out a winner",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Whatsup there. Dont u want to sleep",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Lmao you know me so well...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No de. But call me after some time. Ill tell you k",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Double Mins & 1000 txts on Orange tariffs. Latest Motorola, SonyEricsson & Nokia with Bluetooth FREE! Call MobileUpd8 on 08000839402 or call2optout/HF8",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hello baby, did you get back to your mom's ? Are you setting up the computer now ? Filling your belly ? How goes it loverboy ? I miss you already ... *sighs*",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Just send a text. We'll skype later.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Tell dear what happen to you. Why you talking to me like an alian",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "If I was I wasn't paying attention",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Are you plans with your family set in stone ?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hi :)finally i completed the course:)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Honey, can you pls find out how much they sell Predicte in Nigeria. And how many times can it be used. Its very important to have a reply before monday",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Today's Offer! Claim ur \u00a3150 worth of discount vouchers! Text YES to 85023 now! SavaMob, member offers mobile! T Cs 08717898035. \u00a33.00 Sub. 16 . Unsub reply X",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Oh oh... Den muz change plan liao... Go back have to yan jiu again...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dear Matthew please call 09063440451 from a landline, your complimentary 4*Lux Tenerife holiday or \u00a31000 CASH await collection. ppm150 SAE T&Cs Box334 SK38XH.",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry * was at the grocers.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Then any special there?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Wen did you get so spiritual and deep. That's great",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "staff.science.nus.edu.sg/~phyhcmk/teaching/pc1323",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Someone has contacted our dating service and entered your phone because they fancy you! To find out who it is call from a landline 09111032124 . PoBox12n146tf150p",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry to trouble u again. Can buy 4d for my dad again? 1405, 1680, 1843. All 2 big 1 small, sat n sun. Thanx.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "\u00dc all write or wat..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ah, well that confuses things, doesnt it? I thought was friends with now. Maybe i did the wrong thing but i already sort of invited -tho he may not come cos of money.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "complimentary 4 STAR Ibiza Holiday or \u00a310,000 cash needs your URGENT collection. 09066364349 NOW from Landline not to lose out! Box434SK38WP150PPM18+",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "\u2026 and don\u2018t worry we\u2018ll have finished by march \u2026 ish!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "You'd like that wouldn't you? Jerk!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Really do hope the work doesnt get stressful. Have a gr8 day.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Your brother is a genius",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Nobody can decide where to eat and dad wants Chinese",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dnt worry...use ice pieces in a cloth pack.also take 2 tablets.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry. || mail? ||",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Daddy will take good care of you :)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Cab is available.they pick up and drop at door steps.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Let me know how to contact you. I've you settled in a room. Lets know you are ok.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I thought slide is enough.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sat right? Okay thanks...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ok I'm gonna head up to usf in like fifteen minutes",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "What makes you most happy?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Message from . I am at Truro Hospital on ext. You can phone me here. as I have a phone by my side",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "This message is brought to you by GMW Ltd. and is not connected to the",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "<Forwarded from 448712404000>Please CALL 08712404000 immediately as there is an urgent message waiting for you.",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "That's the trouble with classes that go well - you're due a dodgey one \u2026 Expecting mine tomo! See you for recovery, same time, same place",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "When did i use soc... I use it only at home... \u00dc dunno how 2 type it in word ar...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I will take care of financial problem.i will help:)",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "i dnt wnt to tlk wid u",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Tell me pa. How is pain de.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ringtone Club: Get the UK singles chart on your mobile each week and choose any top quality ringtone! This message is free of charge.",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Are you going to wipro interview today?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Kind of. Just missed train cos of asthma attack, nxt one in half hr so driving in. not sure where to park.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "K..k..i'm also fine:)when will you complete the course?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I wonder how you got online, my love ? Had you gone to the net cafe ? Did you get your phone recharged ? Were you on a friends net ? I think of you, boytoy",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hello. Sort of out in town already. That . So dont rush home, I am eating nachos. Will let you know eta.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "That's good, because I need drugs",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Er mw im filled tuth is aight",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'll text now! All creepy like so he won't think that we forgot",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Now get step 2 outta the way. Congrats again.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ding me on ya break fassyole! Blacko from londn",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "MOON has come to color your dreams, STARS to make them musical and my SMS to give you warm and Peaceful Sleep. Good Night",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "We tried to contact you re your reply to our offer of a Video Phone 750 anytime any network mins Half Price Line Rental Camcorder Reply or call 08000930705",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Tomorrow i am not going to theatre. . . So i can come wherever u call me. . . Tell me where and when to come tomorrow",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Okay but i thought you were the expert",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Ok.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Also maaaan are you missing out",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "accordingly. I repeat, just text the word ok on your mobile phone and send",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Sorry! U can not unsubscribe yet. THE MOB offer package has a min term of 54 weeks> pls resubmit request after expiry. Reply THEMOB HELP 4 more info",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Double mins and txts 4 6months FREE Bluetooth on Orange. Available on Sony, Nokia Motorola phones. Call MobileUpd8 on 08000839402 or call2optout/N9DX",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Oh yeah clearly it's my fault",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Huh but i got lesson at 4 lei n i was thinkin of going to sch earlier n i tot of parkin at kent vale...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Shall i come to get pickle",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "WHAT TIME U WRKIN?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "My sister going to earn more than me da.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hey happy birthday...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Nt only for driving even for many reasons she is called BBD..thts it chikku, then hw abt dvg cold..heard tht vinobanagar violence hw is the condition..and hw ru ? Any problem?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No..but heard abt tat..",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Good Morning my Dear........... Have a great &amp; successful day.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Erm. I thought the contract ran out the4th of october.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Camera - You are awarded a SiPix Digital Camera! call 09061221066 fromm landline. Delivery within 28 days.",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Nope. Meanwhile she talk say make i greet you.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Im just wondering what your doing right now?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I finished my lunch already. U wake up already?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dont give a monkeys wot they think and i certainly don't mind. Any friend of mine&all that! Just don't sleep wiv , that wud be annoyin!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "K:)k.are you in college?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Kindly send some one to our flat before  &lt;DECIMAL&gt;  today.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "U say leh... Of course nothing happen lar. Not say v romantic jus a bit only lor. I thk e nite scenery not so nice leh.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Boo what time u get out? U were supposed to take me shopping today. :(",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Aight should I just plan to come up later tonight?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I'd say that's a good sign but, well, you know my track record at reading women",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I would but I'm still cozy. And exhausted from last night.nobody went to school or work. Everything is closed.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "No other Valentines huh? The proof is on your fb page. Ugh I'm so glad I really DIDN'T watch your rupaul show you TOOL!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Thats cool. How was your day?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "\u00dc say until like dat i dun buy ericsson oso cannot oredi lar...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "If You mean the website. Yes.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Shuhui say change 2 suntec steamboat? U noe where? Where r u now?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Anything...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Then we gotta do it after that",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Daddy, shu shu is looking 4 u... U wan me 2 tell him u're not in singapore or wat?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I dont know what to do to come out of this so only am ask questions like this dont mistake me.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Reply with your name and address and YOU WILL RECEIVE BY POST a weeks completely free accommodation at various global locations www.phb1.com ph:08700435505150p",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Haha good to hear, I'm officially paid and on the market for an 8th",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "449050000301 You have won a \u00a32,000 price! To claim, call 09050000301.",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Aight, lemme know what's up",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Looks like you found something to do other than smoke, great job!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Oh for fuck's sake she's in like tallahassee",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "K, wait chikku..il send aftr  &lt;#&gt; mins",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "All was well until slightly disastrous class this pm with my fav darlings! Hope day off ok. Coffee wld be good as can't stay late tomorrow. Same time + place as always?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Just sleeping..and surfing",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Nothing will ever be easy. But don't be looking for a reason not to take a risk on life and love",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "TheMob>Hit the link to get a premium Pink Panther game, the new no. 1 from Sugababes, a crazy Zebra animation or a badass Hoody wallpaper-all 4 FREE!",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Hmmm.still we dont have opener?",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Both :) i shoot big loads so get ready!",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "happened here while you were adventuring",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Don know:)this week i'm going to tirunelvai da.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Dude we should go sup again",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "I was up all night too worrying about this appt. It's a shame we missed a girls night out with quizzes popcorn and you doing my hair.",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "FreeMsg Hi baby wow just got a new cam moby. Wanna C a hot pic? or Fancy a chat?Im w8in 4uTxt / rply CHAT to 82242 Hlp 08712317606 Msg150p 2rcv",
+    "output": "{\"is_fraudulent\": true}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "Huh y lei...",
+    "output": "{\"is_fraudulent\": false}"
+  },
+  {
+    "instruction": "Determine if the following SMS message is fraudulent. Output the response in JSON with the key \"is_fraudulent\" and the bool value.",
+    "input": "So what about you. What do you remember",
+    "output": "{\"is_fraudulent\": false}"
+  }
+]

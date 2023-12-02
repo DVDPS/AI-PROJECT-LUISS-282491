@@ -1,0 +1,14 @@
+{
+  "sms_dataset": {
+    "file_name": "sms_train.json",
+    "subset": null,
+    "ranking": false,
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": null
+    }
+  }
+}

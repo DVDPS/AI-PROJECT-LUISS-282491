@@ -1,0 +1,12 @@
+{
+  "sms_dataset": {
+    "file_name": "sms_test_data.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": null
+    }
+  }
+}
