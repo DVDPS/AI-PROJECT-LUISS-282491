@@ -12,6 +12,7 @@ LLMs are a rapidly growing and evolving field, we are witnessing a revolution in
 ## Methods
 So instead of using simple/traditional models like the ones we studied in class - such as linear regression, logistic regression, SVM - we are taking a leap forward and applying a *twist* to LLMs; rather than modifying the underlying architecture, we want the model to output a *structured prediction* that we can then extract and apply to classify the text. We have chosen **JSON** for this task, even though other languages such as *YAML* would work fine in this context.
 
+Quick example:
 ```
 "Is this message fraudolent?"
 
@@ -19,6 +20,7 @@ So instead of using simple/traditional models like the ones we studied in class 
 
 "{ "is_fraudolent": true }"
 ```
+Extract the information in any programming language and you are good to go.
 
 ### Why did we make these decisions?
 We have chosen a **structured output** as it is way easier to implement in any system, regardless of programming languages or interfaces, and it allows the task to be extended with minimal effort. **JSON** is a very popular format, and it is also very easy to parse and extract the information we need. As we said before, we have also considered YAML, but we decided to stick with the first one as it is more widely used and also easier to read and understand for us, despite the *higher token usage* (which is not a problem in our case, as we will show you later on).
@@ -26,9 +28,9 @@ We have chosen a **structured output** as it is way easier to implement in any s
 ### Why did we choose this approach?
 We wanted to gain experience and learn more about these models, how to use them, fine-tune them and obtain responses (structured) that could be used in programming interfaces (hence why JSON was chosen). We also wanted to see how they would perform on a task that is not their main purpose, but that they should be really good at handling, and how we could improve them to make them more suitable for this kind of task.
 
-### Why did we choose this model?
-Zephyr-7B is a fine-tuned version of Mistral-7B, it has been fine-tuned on GPT-4 enhanced datasets (Ultrachat) and is a better performing LLM than its fundational model Mistral. The 7B parameters are (from an LLM prospective) a good balance between performance, speed and memory usage, as the 3B models were too underperforming and realistically unusable, while the 13B models were too big and memory intensive for our purposes and for fine-tuning on our available hardware. Additionally, 7B models are more commonly used and used in real world applications, and there are way more versions and resources available for them.
-
+### Why this model?
+**Zephyr-7B** is a fine-tuned version of *Mistral-7B*, it has been fine-tuned on GPT-4 enhanced datasets (*Ultrachat*) and is a better performing LLM than its fundational model Mistral. The *7B parameters* are (from an LLM prospective) a good balance between performance, speed and memory usage, as the 3B models were too underperforming and realistically unusable, while the 13B models were too big and memory intensive for our purposes and for fine-tuning on our available hardware. Additionally, 7B models are more commonly used, especially in real world applications, and there are way more versions and resources available for them.\
+We also took into consideration *LLAMA 2* based models (such as *Orca 2*), or *YI* based models, but Mistral scored better (for 7B models) in our specific context, and we wanted to stick with it.
 So we have chosen a model which is not too computationally expensive but is, on the other hand, powerful enough, meaningful in terms of learning path, and that we could fine-tune on our hardware.
 
 
