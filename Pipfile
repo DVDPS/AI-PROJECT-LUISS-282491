@@ -37,6 +37,7 @@ uvicorn = "*"
 pydantic = "*"
 fastapi = "*"
 sse-starlette = "*"
+imblearn = "*"
 
 [requires]
 python_version = "3.10"
