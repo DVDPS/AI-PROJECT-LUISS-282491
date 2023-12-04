@@ -3,14 +3,33 @@ Project for the course of *Artificial Intelligence and Machine Learning* taught 
 Group components are Francesca Romana Sanna, Leonardo Azzi and Davide Pisano.
 
 ## Introduction
-Artificial intelligence is a field that has always fascinated the three of us, and since we were already studying and learning on our own, we decided to push the limits of our project and consider a different approach: we present to you a work on *text classification* with **Large Language Models (LLMs)**, leveraging the power of their *transformers architecture* with an innovative technique.
+Artificial intelligence is a field that has always fascinated the three of us, and since we were already studying and learning on our own, we decided to push the limits of our project and consider a different approach: we present to you a work on *text classification* with **Large Language Models (LLMs)**, leveraging the power of their *transformers architecture* with an innovative technique. 
+Zephyr-7B is the model we have used, which is a fine-tuned version of Mistral-7B, an outstanding pre-trained model that excels in NLP tasks.
 
+### Why LLMs?
+LLMs are a rapidly growing and evolving field, we are witnessing a revolution in the NLP world, and we wanted to be part of it. Although they are not the best models for this kind of task, as they could easily be considered "overkill", we wanted to see how they would perform and how we could improve them to make them more suitable, while also learning more about them, their inner workings and research on structured-formatted outputs.
 
 ## Methods
-Instead of using simple/traditional models like the ones we studied in class - such as linear regression, logistic regression, SVM - we are taking a leap forward and applying a *twist* to LLMs; rather than modifying the underlying architecture, we want the model to output a *structured prediction* that we can then extract and apply to classify the text. We have chosen **JSON** for this task, even though other languages such as *YAML* would work fine in this context.
+So instead of using simple/traditional models like the ones we studied in class - such as linear regression, logistic regression, SVM - we are taking a leap forward and applying a *twist* to LLMs; rather than modifying the underlying architecture, we want the model to output a *structured prediction* that we can then extract and apply to classify the text. We have chosen **JSON** for this task, even though other languages such as *YAML* would work fine in this context.
+
+```
+"Is this message fraudolent?"
+
+"Click here for free money!
+
+"{ "is_fraudolent": true }"
+```
 
 ### Why did we make these decisions?
-We have chosen a **structured output** as it is way easier to implement in any system, regardless of programming languages or interfaces. **JSON** is a very popular format, and it is also very easy to parse and extract the information we need. As we said before, we have also considered YAML, but we decided to stick with the first one as it is more widely used and also easier to read and understand, despite the *higher token usage* (which is not a problem in our case, as we will show later on).
+We have chosen a **structured output** as it is way easier to implement in any system, regardless of programming languages or interfaces, and it allows the task to be extended with minimal effort. **JSON** is a very popular format, and it is also very easy to parse and extract the information we need. As we said before, we have also considered YAML, but we decided to stick with the first one as it is more widely used and also easier to read and understand for us, despite the *higher token usage* (which is not a problem in our case, as we will show you later on).
+
+### Why did we choose this approach?
+We wanted to gain experience and learn more about these models, how to use them, fine-tune them and obtain responses (structured) that could be used in programming interfaces (hence why JSON was chosen). We also wanted to see how they would perform on a task that is not their main purpose, but that they should be really good at handling, and how we could improve them to make them more suitable for this kind of task.
+
+### Why did we choose this model?
+Zephyr-7B is a fine-tuned version of Mistral-7B, it has been fine-tuned on GPT-4 enhanced datasets (Ultrachat) and is a better performing LLM than its fundational model Mistral. The 7B parameters are (from an LLM prospective) a good balance between performance, speed and memory usage, as the 3B models were too underperforming and realistically unusable, while the 13B models were too big and memory intensive for our purposes and for fine-tuning on our available hardware. Additionally, 7B models are more commonly used and used in real world applications, and there are way more versions and resources available for them.
+
+So we have chosen a model which is not too computationally expensive but is, on the other hand, powerful enough, meaningful in terms of learning path, and that we could fine-tune on our hardware.
 
 
 ### How can you recreate our work?
@@ -34,6 +53,14 @@ if you want to get the full experience, we uploaded the model with different for
 
 
 ### 
+We tested zephyr on the dataset, got bad results for both JSON output and task performance then fine-tuned and quantized, compared performance and got massive improvements on both JSON output (100% on test) and on task performance.
+
+Shrink model + fine tuned = more specialized LLM that also excels in JSON outputs and Message text classification, while also behaving like a normal LLM on other tasks. This mitigates the issue of the model being too computationally expensive, it still is, but less.
+
+We converted to GGUF for easier CPU inference, making it computationaly cheaper and more accessible.
+
+
+
 
 
 
