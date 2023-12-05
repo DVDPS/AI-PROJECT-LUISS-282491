@@ -152,3 +152,9 @@ your findings
 • Include one paragraph to explain what questions may not be fully
 answered by your work as well as natural next steps for this direction of
 future work
+
+Considering all this, we showed that the fine-tuned model vastly *outperforms* the base model on every aspect we measured - again, accuracy, precision, recall, F1 score, BLEU and ROUGE scores, output accuracy and efficiency. Overall, we accomplished basically perfect *text classification*, managing to have the model predict correctly all messages, both in the test set and made up by us, with a satisfactory structured output.
+
+Nonetheless, our work is not perfect, as there are still some issues - such as the computational power and the time needed to run the model - that we could not exactly solve, but we surely dodged them for the most part with the *quantization*. We should also underline the fact that with further fine-tuning, training, testing and specialized instructions, we could obtain even better results, focusing on this particular task - and therefore refining the model to handle real world scenarios of SMS fraud detection and prevention - or either applying it to other cases, just like a normal LLM.
+
+Lastly, we are really proud of our project, and we understand that the experience we gained and the knowledge we acquired are just an headstart for the bigger picture we have in mind.
