@@ -142,7 +142,21 @@ Speaking of hardware, we went through the whole process on an *NVIDIA RTX 4090 w
 
 ![Fine-tuning](images\Zephyr-Base-Fine-Tuning.png)
 
-The results were *"train_loss": 0.03747267646436822*,
+The results were *"train_loss": 0.03747267646436822*
+
+### Quantization
+As we previously dicussed, LLMs require a lot of computational power and memory, which is a big issue especially for "relatively simple tasks" like this one. To mitigate this issue, we decided to quantize the model, which means reducing the precision of the weights and activations, and therefore reducing the memory usage and computational power needed to run the model.
+
+To do so, we used **LLAMA.cpp**, a general tool for LLM inference which also facilitates quantization. We first converted the model to the GGUF format, which is a format that allows for easier inference on CPUs (additional "computation friendliness"), and then we created 2 quantized versions of the model:
+- 8-bit (Q_8 QLoRA) - [Available here](https://huggingface.co/SimplyLeo/Zephyr-Fraudulence-Detector/blob/main/zehpyr-fraudulence-detector-q8_0.gguf)
+- 16-bit (fp16) - [Available here](https://huggingface.co/SimplyLeo/Zephyr-Fraudulence-Detector/blob/main/Zephyr_Fraudolence_detector_full.gguf)
+
+We then uploaded the models on our [HuggingFace Repo](https://huggingface.co/SimplyLeo/Zephyr-Fraudulence-Detector/tree/main) to make them more accessible and easy to use.
+
+Quantization, GGUF conversion and HuggingFace upload allowed us to make our model more accessible and easier to use, as it can now be run on CPUs (with layers offload to the GPU if possible) and with many LLM services, such as [LMStudio](https://lmstudio.ai), that we strongly recommend.
+
+> Note: to get our model running on LM Studio and other services (assuming HuggingFace support), you simply need to search for the model name (Zephyr-Fraudulence-Detector) or Repo (SimplyLeo/Zephyr-Fraudulence-Detector) and select the model you want to use. You can then run inference on the model, and you can also fine-tune it on your own dataset, if you want to (Not recommended). 
+
 
 
 
