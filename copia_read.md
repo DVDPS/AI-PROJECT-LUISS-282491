@@ -85,8 +85,8 @@ Some stats we recorded:
 | *F1 score for valid responses*   | 30%                        | 98%            |
 
 
-These are more than impressive following the previous evaluation, where the model scored okay on the JSON output, but achieved poorly on the metrics, with the exception of the *recall* being perfect since it was actually guessing right all the time on valid responses.\
-Following a more in-depth analysis, we can see that the model is able to classify correctly messages that are not in the training set, and that it is able to extract the information we need from the JSON output, which is the main goal of our project.\
+These are more than impressive following the previous evaluation, where the model scored okay on the JSON output, but achieved poorly on the metrics, with the exception of the *recall* being perfect since it actually guessed right all the fraudolent messages.\
+Following a more in-depth analysis, we can see that the model is able to classify correctly messages that are not in the training set, and that it is able to format the information in JSON output, which is the main goal of our project.\
 We accomplished an improvement in the **JSON output and compliance**: having *zero* instances of *invalid* structures or content, this now means that our model is consistently generating correct outputs, which is a fundamental step for the task.\
 Moreover, we managed to take a big step forward with the **accuracy, precision, recall and F1 score**: going from a 17.65% to a 99% *accuracy* indicated the model is *almost perfectly doing its job* at identifying fraudulent messages, while the high *F1 score* - mixing precision and recall in one - points out a great balance overall.\
 Here we provide a second analysis of the outcomes, with some other key metrics such as the **BLEU and ROUGE scores** used for *NLP evaluation*. They add up to the positive performances we have seen so far, although we won't dive into them as they are too far apart from what we studied during our course.
