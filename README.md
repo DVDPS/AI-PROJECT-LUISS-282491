@@ -2,7 +2,7 @@
 Project for the course of *Artificial Intelligence and Machine Learning* taught by Prof. Italiano, for the BSc in Management and Computer Science.
 Group components are Francesca Romana Sanna, Leonardo Azzi and Davide Pisano.
 
-## Introduction
+## Section 1 - Introduction
 Artificial intelligence is a field that has always fascinated the three of us, and since we were already studying and learning on our own, we decided to push the limits of our project and consider a different approach: we present to you a work on *text classification* with **Large Language Models (LLMs)**, leveraging the power of their *transformers architecture* with an innovative technique. 
 
 We picked the model **Zephyr-7B**, which is a fine-tuned version of **Mistral-7B**, an outstanding pre-trained model that excels in *NLP tasks*. We *evaluated* base-model performance, then *fine-tuned* it on our dataset, *quantized* it and *compared* the results. We also converted the model to a more suitable format for *CPU inference*, and we have uploaded it on **HuggingFace** for easier use.
@@ -10,7 +10,7 @@ We picked the model **Zephyr-7B**, which is a fine-tuned version of **Mistral-7B
 ### Why LLMs?
 LLMs are a rapidly growing and evolving field, we are witnessing a revolution in the NLP world, and we wanted to be part of it. Although they are not the best models for this kind of task, as they could easily be considered "overkill", we wanted to see how they would perform and how we could improve them to make them more suitable, while also learning more about them, their inner workings and research on structured-formatted outputs.
 
-## Methods
+## Section 2 - Methods
 So instead of using simple/traditional models like the ones we studied in class - such as linear regression, logistic regression, SVM - we are taking a leap forward and applying a *twist* to LLMs; rather than modifying the underlying architecture, we want the model to output a *structured prediction* that we can then extract and apply to classify the text. We have chosen **JSON** for this task, even though other languages such as *YAML* would work fine in this context.
 
 Quick example:
@@ -52,7 +52,7 @@ as you can see there are two other GitHub repositories linked in our `requiremen
 **Extra:**
 if you want to get the full experience, we uploaded the model with different formats (*Pytorch, GGUF 8/16-bit LoRA quantized*) on HuggingFace. In this way, you could easily run inference on a CPU, exploiting the complete interface provided by services like *LMStudio* (strongly recommended).
 
-## Experimental Design
+## Section 3 - Experimental Design
 
 ### Main Purpose and Parameters
 The main purpose of this project is to evaluate fine-tuning effectiveness on small models in obtaining **structured responses** and for **task-specific performance**.
@@ -160,7 +160,7 @@ Quantization, GGUF conversion and HuggingFace upload allowed us to make our mode
 
 ![Search Model](images\LM-Studio-Model-Search.png)
 
-# SECTION 4
+## Section 4 - Results
 
 Now **we finally did it!**\
 On the first instance of the base model, we observed that the scores and results were not really optimal, both concerning the task - keeping an eye on the performance metrics - and the JSON output - where we had a lot of invalid structures and content.\
@@ -193,8 +193,7 @@ Here we provide a second analysis of the outcomes, with some other key metrics s
 All these excellent results can be attributed to the work done with the *fine-tuning*, transforming the base model into a faster, more efficient and more specialized one, which is able to perform significantly better on the task while needing less time and computational power, while also excelling in generating a structured JSON output.
 
 
-# SECTION 5
-## Conclusions
+## Section 5 - Conclusions
 Considering all this, we showed that the fine-tuned model vastly outperforms the base model on every aspect we measured - again, accuracy, precision, recall, F1 score, BLEU and ROUGE scores, output accuracy and efficiency. Overall, we accomplished basically perfect text classification, managing to have the model predict correctly all messages, both in the test set and made up by us, with a satisfactory structured output.
 
 We are aware that using an LLM for this kind of task might not the best choice (at least not in this state), as it requires a significant amount of computational power and memory (considering that simpler models can still achieve quite effective results) and it is not ready for real world applications. However, with this project we managed to learn a lot about using LLMs, fine-tuning, quantization, different formats and, most importantly, tweaking the model to get structured outputs, while also getting excellent score on the message classification.
