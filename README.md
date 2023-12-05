@@ -201,3 +201,12 @@ We are aware that using an LLM for this kind of task might not the best choice (
 Additionally, the final model is not limited by the training on the task we imposed, and changing the instructions would allow it to be used as a "normal LLM". Further fine-tuning on other tasks and outputs can increase its range of use and general capabilities, making it more "worth" to use.
 
 Lastly, the experience gain from this research is the main takeaway, and we are really satisfied with the results we achieved. We believe that the knowledge we acquired is just an headstart for the bigger picture we have in mind.
+
+### Resources
+Links to the repositories we used:
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+- [LLAMA.cpp](https://github.com/ggerganov/llama.cpp)
+
+Links to our [HuggingFace](https://huggingface.co/SimplyLeo/Zephyr-Fraudulence-Detector) models:
+- [Zephyr-Fraudulence-Detector-F16](https://huggingface.co/SimplyLeo/Zephyr-Fraudulence-Detector/blob/main/zehpyr-fraudulence-detector-f16.gguf)
+- [Zephyr-Fraudulence-Detector-Q8](https://huggingface.co/SimplyLeo/Zephyr-Fraudulence-Detector/blob/main/zehpyr-fraudulence-detector-q8_0.gguf)
