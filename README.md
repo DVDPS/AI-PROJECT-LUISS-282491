@@ -47,7 +47,7 @@ We picked the 3.10 version of Python to count both on recent support and more st
 - run `pipenv shell` to activate the virtual environment
 
 **Notes:**
-as you can see there are two other GitHub repositories linked in the `requirements.txt` file, designated to simplify our work; one (*LLaMA-Factory*) regarding the fine tuning of the LLMs, and the other (*llama.cpp*) regarding the export of the model to a more suitable format - *GGUF*.
+as you can see there are two other GitHub repositories linked in our `requirements`, picked to simplify our work; one (*LLaMA-Factory*) regarding the fine-tuning of the LLMs, and the other (*llama.cpp*) regarding the export of the model to a more suitable format - *GGUF* - and use of quantization techniques.
 
 **Extra:**
 if you want to get the full experience, we uploaded the model with different formats (*Pytorch, GGUF 8/16-bit LoRA quantized*) on HuggingFace. In this way, you could easily run inference on a CPU, exploiting the complete interface provided by services like *LMStudio* (strongly recommended).
@@ -142,7 +142,7 @@ Speaking of hardware, we went through the whole process on an *NVIDIA RTX 4090 w
 
 ![Fine-tuning](images\Zephyr-Base-Fine-Tuning.png)
 
-The results were *"train_loss": 0.03747267646436822*
+(Results sneak peak: *"train_loss" = 0.03747267646436822*)
 
 ### Quantization
 As we previously dicussed, LLMs require a lot of computational power and memory, which is a big issue especially for "relatively simple tasks" like this one. To mitigate this issue, we decided to quantize the model, which means reducing the precision of the weights and activations, and therefore reducing the memory usage and computational power needed to run the model.
@@ -158,75 +158,47 @@ Quantization, GGUF conversion and HuggingFace upload allowed us to make our mode
 > Note: to get our model running on LM Studio and other services (assuming HuggingFace support), you simply need to search for the model name (Zephyr-Fraudulence-Detector) or Repo (SimplyLeo/Zephyr-Fraudulence-Detector) and select the model you want to use. You can then run inference on the model, and you can also fine-tune it on your own dataset, if you want to (Not recommended). 
 
 
+![Search Model](images\LM-Studio-Model-Search.png)
+
+# SECTION 4
+
+Now **we finally did it!**\
+On the first instance of the base model, we observed that the scores and results were not really optimal, both concerning the task - keeping an eye on the performance metrics - and the JSON output - where we had a lot of invalid structures and content.\
+After the fine-tuning phase, we obtained a model that is able to classify messages as fraudolent or not, and we can also extract the information we need from the JSON output.\
+Some stats we recorded:
+| **Metric**                       | **Base model (Zephyr-7b)** | **Fine-tuned** |
+| :---                             |    :----:                  |     :---:      |
+| *Valid responses*                | 71.69%                     | 1115 - 100%    |
+| *Invalid JSON structures*        | 28.20%                     | 0 - 0%         |
+| *Invalid JSON content*           | 0.11%                      | 0 - 0%         |
+| *Accuracy for valid responses*   | 17.65%                     | 99%            |
+| *Precision for valid responses*  | 17.65%                     | 99%            |
+| *Recall for valid responses*     | 100%                       | 97%            |
+| *F1 score for valid responses*   | 30%                        | 98%            |
 
 
-### 
-We tested zephyr on the dataset, got bad results for both JSON output and task performance then fine-tuned and quantized, compared performance and got massive improvements on both JSON output (100% on test) and on task performance.
-
-Shrink model + fine tuned = more specialized LLM that also excels in JSON outputs and Message text classification, while also behaving like a normal LLM on other tasks. This mitigates the issue of the model being too computationally expensive, it still is, but less.
-
-We converted to GGUF for easier CPU inference, making it computationaly cheaper and more accessible.
-
-
-
-
-
-
-Describe your proposed ideas (e.g., features, algorithm(s),
-training overview, design choices, etc.) and your environment so that:
-• A reader can understand why you made your design decisions and the
-reasons behind any other choice related to the project!!!!!!!!!!!!!!!!!!!!!!!!
-• A reader should be able to recreate your environment (e.g., conda list,
-conda envexport, etc.)XXXXXXXXXXXXXXXXXXXXXX
-• It may help to include a figure illustrating your ideas, e.g., a flowchart
-illustrating the steps in your machine learning system(s)
+These are more than impressive following the previous evaluation, where the model scored okay on the JSON output, but achieved poorly on the metrics, with the exception of the *recall* being perfect since it actually guessed right all the fraudolent messages.\
+Following a more in-depth analysis, we can see that the model is able to classify correctly messages that are not in the training set, and that it is able to format the information in JSON output, which is the main goal of our project.\
+We accomplished an improvement in the **JSON output and compliance**: having *zero* instances of *invalid* structures or content, this now means that our model is consistently generating correct outputs, which is a fundamental step for the task.\
+Moreover, we managed to take a big step forward with the **accuracy, precision, recall and F1 score**: going from a 17.65% to a 99% *accuracy* indicated the model is *almost perfectly doing its job* at identifying fraudulent messages, while the high *F1 score* - mixing precision and recall in one - points out a great balance overall.\
+Here we provide a second analysis of the outcomes, with some other key metrics such as the **BLEU and ROUGE scores** used for *NLP evaluation*. They add up to the positive performances we have seen so far, although we won't dive into them as they are too far apart from what we studied during our course.
+| **Metric**            | **Base model (Zephyr-7b)** | **Fine-tuned** |
+| :---                  |    :----:                  |     :---:      |
+| *BLEU-4*              | 21.95%                     | 99.85%         |
+| *ROUGE-1*             | 43.65%                     | 99.92%         |
+| *ROUGE-2*             | 38.07%                     | 99.84%         |
+| *ROUGE-L*             | 40.03%                     | 99.93%         |
 
 
+All these excellent results can be attributed to the work done with the *fine-tuning*, transforming the base model into a faster, more efficient and more specialized one, which is able to perform significantly better on the task while needing less time and computational power, while also excelling in generating a structured JSON output.
 
 
-## Instructions
-Perform an Explanatory data analysis (EDA) with visualization using the entire dataset.. 
-• Preprocess the dataset (impute missing values, encode categorical features with one-hot 
-encoding). Your goal is to estimate whether an SMS is fraudulent 
-• Define whether this is a regression, classification or clustering problem, explain why and 
-choose your model design accordingly. Test at least 3 different models. First, create a 
-validation set from the training set to analyze the behaviour with the default 
-hyperparameters. Then use cross-validation to find the best set of hyperparameters. You 
-must describe every hyperparameter tuned (the more, the better) 
-• Select the best architecture using the right metric 
-• Compute the performances of the test set 
-• Explain your results 
+# SECTION 5
+## Conclusions
+Considering all this, we showed that the fine-tuned model vastly outperforms the base model on every aspect we measured - again, accuracy, precision, recall, F1 score, BLEU and ROUGE scores, output accuracy and efficiency. Overall, we accomplished basically perfect text classification, managing to have the model predict correctly all messages, both in the test set and made up by us, with a satisfactory structured output.
 
-## Title and Team members
+We are aware that using an LLM for this kind of task might not the best choice (at least not in this state), as it requires a significant amount of computational power and memory (considering that simpler models can still achieve quite effective results) and it is not ready for real world applications. However, with this project we managed to learn a lot about using LLMs, fine-tuning, quantization, different formats and, most importantly, tweaking the model to get structured outputs, while also getting excellent score on the message classification.
 
-### [Section 1] Introduction – Briefly describe your project
+Additionally, the final model is not limited by the training on the task we imposed, and changing the instructions would allow it to be used as a "normal LLM". Further fine-tuning on other tasks and outputs can increase its range of use and general capabilities, making it more "worth" to use.
 
-### [Section 2] Methods – Describe your proposed ideas (e.g., features, algorithm(s),
-training overview, design choices, etc.) and your environment so that:
-• A reader can understand why you made your design decisions and the
-reasons behind any other choice related to the project
-• A reader should be able to recreate your environment (e.g., conda list,
-conda envexport, etc.)
-• It may help to include a figure illustrating your ideas, e.g., a flowchart
-illustrating the steps in your machine learning system(s)
-
-### [Section 3] Experimental Design – Describe any experiments you conducted to
-demonstrate/validate the target contribution(s) of your project; indicate the
-following for each experiment:
-• The main purpose: 1-2 sentence high-level explanation
-• Baseline(s): describe the method(s) that you used to compare your work
-to
-• Evaluation Metrics(s): which ones did you use and why?
-
-### [Section 4] Results – Describe the following:
-• Main finding(s): report your final results and what you might conclude
-from your work
-• Include at least one placeholder figure and/or table for communicating
-your findings
-• All the figures containing results should be generated from the code.
-
-### [Section 5] Conclusions – List some concluding remarks. In particular:
-• Summarize in one paragraph the take-away point from your work.
-• Include one paragraph to explain what questions may not be fully
-answered by your work as well as natural next steps for this direction of
-future work
+Lastly, the experience gain from this research is the main takeaway, and we are really satisfied with the results we achieved. We believe that the knowledge we acquired is just an headstart for the bigger picture we have in mind.
