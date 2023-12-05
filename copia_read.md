@@ -47,7 +47,7 @@ We picked the 3.10 version of Python to count both on recent support and more st
 - run `pipenv shell` to activate the virtual environment
 
 **Notes:**
-as you can see there are two other GitHub repositories linked in the `requirements.txt` file, designated to simplify our work; one (*LLaMA-Factory*) regarding the fine tuning of the LLMs, and the other (*llama.cpp*) regarding the export of the model to a more suitable format - *GGUF*.
+as you can see there are two other GitHub repositories linked in the `requirements.txt` file, designated to simplify our work; one (*LLaMA-Factory*) regarding the fine-tuning of the LLMs, and the other (*llama.cpp*) regarding the export of the model to a more suitable format - *GGUF*.
 
 **Extra:**
 if you want to get the full experience, we uploaded the model with different formats (*Pytorch, GGUF 8/16-bit LoRA quantized*) on HuggingFace. In this way, you could easily run inference on a CPU, exploiting the complete interface provided by services like *LMStudio* (strongly recommended).
@@ -64,6 +64,47 @@ We converted to GGUF for easier CPU inference, making it computationaly cheaper 
 
 
 # SECTION 4
+- Main finding(s): report your final results and what you might conclude
+from your work
+- Include at least one placeholder figure and/or table for communicating
+your findings
+- All the figures containing results should be generated from the code.
+
+Now we finally did it!\
+On the first instance of the base model, we observed that the scores and results were not really optimal, both concerning the task - keeping an eye on the performance metrics - and the JSON output - where we had a lot of invalid structures and content.\
+After the fine-tuning phase, we obtained a model that is able to classify messages as fraudolent or not, and we can also extract the information we need from the JSON output.\
+Some stats we recorded:
+| **Metric**                       | **Base model (Zephyr-7b)** | **Fine-tuned** |
+| :---                             |    :----:                  |     :---:      |
+| *Valid responses*                | 71.69%                     | 1115 - 100%    |
+| *Invalid JSON structures*        | 28.20%                     | 0 - 0%         |
+| *Invalid JSON content*           | 0.11%                      | 0 - 0%         |
+| *Accuracy for valid responses*   | 17.65%                     | 99%            |
+| *Precision for valid responses*  | 17.65%                     | 99%            |
+| *Recall for valid responses*     | 100%                       | 97%            |
+| *F1 score for valid responses*   | 30%                        | 98%            |
+
+
+These are more than impressive following the previous evaluation, where the model scored okay on the JSON output, but achieved poorly on the metrics, with the exception of the *recall* being perfect since it was actually guessing right all the time on valid responses.\
+Following a more in-depth analysis, we can see that the model is able to classify correctly messages that are not in the training set, and that it is able to extract the information we need from the JSON output, which is the main goal of our project.\
+We accomplished an improvement in the **JSON output and compliance**: having *zero* instances of *invalid* structures or content, this now means that our model is consistently generating correct outputs, which is a fundamental step for the task.\
+Moreover, we managed to take a big step forward with the **accuracy, precision, recall and F1 score**: going from a 17.65% to a 99% *accuracy* indicated the model is *almost perfectly doing its job* at identifying fraudulent messages, while the high *F1 score* - mixing precision and recall in one - points out a great balance overall.\
+Here we provide a second analysis of the outcomes, with some other key metrics such as the **BLEU and ROUGE scores** used for *NLP evaluation*. They add up to the positive performances we have seen so far, although we won't dive into them as they are too far apart from what we studied during our course.
+| **Metric**            | **Base model (Zephyr-7b)** | **Fine-tuned** |
+| :---                  |    :----:                  |     :---:      |
+| *BLEU-4*              | 21.95%                     | 99.85%         |
+| *ROUGE-1*             | 43.65%                     | 99.92%         |
+| *ROUGE-2*             | 38.07%                     | 99.84%         |
+| *ROUGE-L*             | 40.03%                     | 99.93%         |
+
+
+All these excellent results can be attributed to the work done with the *fine-tuning*, transforming the base model into a faster, more efficient and more specialized one, which is able to perform significantly better on the task while needing less time and computational power, while also excelling in generating a structured JSON output.
+
+
+
+
+
+
 
 ## Instructions
 Perform an Explanatory data analysis (EDA) with visualization using the entire dataset.. 
